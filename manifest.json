@@ -1,0 +1,13 @@
+{
+  "name":           "百度空间访问限制突破插件",
+  "version":        "0.2",
+  "description":    "百度限制所有谷歌过来访问，本插件实现突破此限制。",
+  "background": {
+    "scripts": ["background.js"],
+    "permissions": true
+  },
+  "permissions":    [
+    "webRequest","webRequestBlocking","*://hi.baidu.com/*"
+  ],
+  "manifest_version": 2
+}
